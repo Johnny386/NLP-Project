@@ -1,16 +1,11 @@
 # Libraries
-import numpy as np
 import pandas as pd
 import plotly.express as px
-import plotly.graph_objects as go
-from datetime import datetime, timedelta
 import streamlit as st
 import nltk
 from nltk import WordNetLemmatizer
-from langdetect import detect
 from nltk.corpus import opinion_lexicon
 from nltk.tokenize import word_tokenize
-from sklearn.feature_extraction.text import TfidfVectorizer
 import joblib
 import re
 
