@@ -3,4 +3,3 @@ plotly
 streamlit
 nltk
 joblib
-punkt
