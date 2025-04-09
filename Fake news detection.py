@@ -12,6 +12,7 @@ import re
 # Download necessary NLTK resources
 nltk.download('opinion_lexicon')
 nltk.download('stopwords')
+nltk.download('punkt')
 
 # Initialize stopwords outside the functions
 stop_words = nltk.corpus.stopwords.words('english')
