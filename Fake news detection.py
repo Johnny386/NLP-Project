@@ -13,6 +13,8 @@ import re
 nltk.download('opinion_lexicon')
 nltk.download('stopwords')
 nltk.download('punkt')
+nltk.download('punkt_tab')
+
 
 # Initialize stopwords outside the functions
 stop_words = nltk.corpus.stopwords.words('english')
