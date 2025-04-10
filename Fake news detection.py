@@ -15,6 +15,7 @@ nltk.download('opinion_lexicon')
 nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('punkt_tab')
+nltk.download('wordnet')
 
 
 # Initialize stopwords outside the functions
