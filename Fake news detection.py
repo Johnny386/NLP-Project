@@ -72,7 +72,7 @@ def preprocess_text(text):
     X = generateVariables(df)
     
     # Load the vectorizer and transform the text
-    vectorizer = joblib.load("C:/Users/jchreim/Desktop/Fundementals of NLP/Group_assignment/tfidf_vectorizer.pkl")
+    vectorizer = joblib.load("./tfidf_vectorizer.pkl")
     X_tfidf = vectorizer.transform(X['norm_title'])  # Use transform (not fit_transform)
     
     return X_tfidf
@@ -97,7 +97,7 @@ if st.sidebar.button("Analyze"):
     with st.spinner('Analyzing the article...'):
         try:
             # Load the trained model
-            model = joblib.load("C:/Users/jchreim/Desktop/Fundementals of NLP/Group_assignment/fake_news_model.pkl")
+            model = joblib.load("./fake_news_model.pkl")
 
             # Preprocess the input text
             preprocessed_text = preprocess_text(input_text)
