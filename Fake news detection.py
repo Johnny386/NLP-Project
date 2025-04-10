@@ -8,6 +8,7 @@ from nltk.corpus import opinion_lexicon
 from nltk.tokenize import word_tokenize
 import joblib
 import re
+import sklearn
 
 # Download necessary NLTK resources
 nltk.download('opinion_lexicon')
