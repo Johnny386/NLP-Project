@@ -130,5 +130,5 @@ st.plotly_chart(fig)
 
 # Footer
 st.markdown("---")
-st.markdown("Created by [Your Name](https://www.linkedin.com/in/yourprofile/)")
+st.markdown("Created by Johnny Chreim, Benjamin Jacobsen, Rohan Taneja")
 st.markdown("This app is built using Streamlit and various NLP libraries.")
